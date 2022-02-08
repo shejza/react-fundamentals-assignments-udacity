@@ -5,10 +5,10 @@ class FavoriteMovies extends Component {
     const { profiles, users, movies } = this.props;
     return (
       <ol className='contact-list'>
-        {this.props.profiles.map((profile) => (
+        {profiles.map((profile) => (
           <li key={profile.id} className='contact-list-item'>
             {users[profile.userID].name}  favorite movie is {' '}
-            {users[profile.favoriteMovieID].name}
+            {movies[profile.favoriteMovieID].name}
           </li>
         ))}
       </ol>
