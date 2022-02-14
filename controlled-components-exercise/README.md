@@ -1,5 +1,5 @@
 ### Instructions
-`
+```
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -65,7 +65,7 @@ class App extends React.Component {
 }
 
 export default App;
-`
+```
 
 This code gives you a functioning app. But, as you can tell, the App
 isn't modular at all - there is only 1 component!
