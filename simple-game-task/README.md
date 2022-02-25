@@ -55,6 +55,11 @@ React applications.
 
 2.  Does it remain unchanged over time? If so, it probably isn’t state.
 
+
+### Please Check here I put some notes how I started working on this task
+https://elated-blue-506.notion.site/Task-00a5b5319f244a7d86846d2afb7930cd
+
+
 3.  Can you compute it based on any other state or props in your component?
     If so, it isn’t state.
 
